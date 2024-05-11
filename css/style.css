@@ -77,10 +77,29 @@ a.link button {
     transition: all 0.3s ease-in-out;
 }
 
-a.link button:hover {
+a.link button:hover,
+footer a.btn_footer:hover {
     transform: scale(1.05);
 }
 
 a.link i {
     font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a.btn_footer {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    color: #43EA80;
+    transition: all 0.3s ease-in-out;
+    background-color: #080C1C;
 }
